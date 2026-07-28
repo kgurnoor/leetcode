@@ -4,13 +4,13 @@ public:
         int n = s.size();
         vector<int> freq(26,0);
         for(int i = 0; i < n; i++){
-            freq[s[i] - 'a']++; 
+            freq[s[i] - 'a']++;  //count the frequency
         }
         string left = "";
         string mid = "";
         for(int i = 0; i < 26; i++){
             //string.append(number_of_times, character);
-            left.append(freq[i]/2, 'a' + i);
+            left.append(freq[i]/2, 'a' + i); //recover the letter
             //string s = "";
             // s.append(4, 'x');
             // s = "xxxx"
