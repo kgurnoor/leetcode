@@ -7,8 +7,9 @@ public:
             freq[c - 'a']++; //counted frequencies of all letters
         }
         sort(freq.begin(),freq.end()); //we dont care about which letter we just want highest freq->cheapest cost
+        //but sorting happens from lowest to highest freq, we want to assign highest the least amount of steps hence iterating from behind
         for(int i = 25; i >= 0; i--){
-            ans += ((25-i)/8 + 1)*freq[i];
+            ans += ((25-i)/8 + 1)*freq[i]; //counting i=25(z or any other letter) its highest so 0/8 + 1 -> 1 step
         }
         return ans;
     }
