@@ -31,10 +31,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0496-next-greater-element-i](https://github.com/kgurnoor/leetcode/tree/master/0496-next-greater-element-i) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/kgurnoor/leetcode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
+| [3731-find-missing-elements](https://github.com/kgurnoor/leetcode/tree/master/3731-find-missing-elements) |
 ## Sorting
 |  |
 | ------- |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/kgurnoor/leetcode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
+| [3731-find-missing-elements](https://github.com/kgurnoor/leetcode/tree/master/3731-find-missing-elements) |
 ## Counting
 |  |
 | ------- |
@@ -54,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0877-stone-game](https://github.com/kgurnoor/leetcode/tree/master/0877-stone-game) |
 | [0907-sum-of-subarray-minimums](https://github.com/kgurnoor/leetcode/tree/master/0907-sum-of-subarray-minimums) |
 | [1406-stone-game-iii](https://github.com/kgurnoor/leetcode/tree/master/1406-stone-game-iii) |
+| [3731-find-missing-elements](https://github.com/kgurnoor/leetcode/tree/master/3731-find-missing-elements) |
 ## Dynamic Programming
 |  |
 | ------- |
