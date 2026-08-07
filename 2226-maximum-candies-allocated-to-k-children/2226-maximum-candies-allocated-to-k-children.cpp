@@ -1,27 +1,44 @@
 class Solution {
 public:
-    int bin_search(int low, int high, vector<int>& candies,long long k){
-        int ans = 0;
-        while(low <= high){
-            long long sum = 0;
-            int mid = low + (high-low)/2; //probable answer
-            for(int i = 0; i < candies.size();i++){
-                int group = candies[i]/mid;
-                sum += group; //group = number of children
-            }
-            if(sum >= k){  //k > sum, possibility of answer is there, check for a bigger group size
-                ans = mid; //remember this answer
-                low = mid + 1;
-            }
-            else {
-                high = mid - 1;//answer not found, mid is too big
-            }
+    bool canDistribute(vector<int>& candies, int p, long long k) {
+        // how many complete groups we can make of group size k
+        // that determines how many children we can distribute the current number of candies to from the current candies[i] pile
+        int n = candies.size();
+        long long cnt = 0;
+        for (int i = 0; i < n; i++) {
+            // can we atleast have p candies from each candies[i] pile
+            // count the number of complete groups 
+            cnt += floor(candies[i] / p);
+            if(cnt >= k) return true;
         }
-        return ans;
+        return false;
     }
     int maximumCandies(vector<int>& candies, long long k) {
-        int max_pile = *max_element(candies.begin(), candies.end());//find the element havin the max possibility of finding the group
-        int ans = bin_search(1,max_pile,candies, k);
+        // the search space belongs from the 1 to max element
+        // we can atleast distrbute one candy from each of the candies[i] piles
+        // as per the constraints
+        /*
+        1 <= candies.length <= 105
+        1 <= candies[i] <= 107
+        1 <= k <= 1012
+        */
+        int low = 1;
+        int high = *max_element(candies.begin(), candies.end());
+        int ans = 0;
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            // if it works we can check if there is a larger value if which can
+            // work so we eliminate the left search space
+            if (canDistribute(candies, mid, k)) {
+                ans = mid;
+                low = mid + 1;
+            }
+            // if it doesn't work then the ammount of candies is large
+            // we should check for a smaller value
+            else {
+                high = mid - 1;
+            }
+        }
         return ans;
     }
 };
