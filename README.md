@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0227-basic-calculator-ii](https://github.com/kgurnoor/leetcode/tree/master/0227-basic-calculator-ii) |
 | [0486-predict-the-winner](https://github.com/kgurnoor/leetcode/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/kgurnoor/leetcode/tree/master/0877-stone-game) |
+| [1140-stone-game-ii](https://github.com/kgurnoor/leetcode/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/kgurnoor/leetcode/tree/master/1406-stone-game-iii) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/kgurnoor/leetcode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/kgurnoor/leetcode/tree/master/3345-smallest-divisible-digit-product-i) |
@@ -61,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/kgurnoor/leetcode/tree/master/0496-next-greater-element-i) |
 | [0877-stone-game](https://github.com/kgurnoor/leetcode/tree/master/0877-stone-game) |
 | [0907-sum-of-subarray-minimums](https://github.com/kgurnoor/leetcode/tree/master/0907-sum-of-subarray-minimums) |
+| [1140-stone-game-ii](https://github.com/kgurnoor/leetcode/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/kgurnoor/leetcode/tree/master/1406-stone-game-iii) |
 | [2226-maximum-candies-allocated-to-k-children](https://github.com/kgurnoor/leetcode/tree/master/2226-maximum-candies-allocated-to-k-children) |
 | [3731-find-missing-elements](https://github.com/kgurnoor/leetcode/tree/master/3731-find-missing-elements) |
@@ -70,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0486-predict-the-winner](https://github.com/kgurnoor/leetcode/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/kgurnoor/leetcode/tree/master/0877-stone-game) |
 | [0907-sum-of-subarray-minimums](https://github.com/kgurnoor/leetcode/tree/master/0907-sum-of-subarray-minimums) |
+| [1140-stone-game-ii](https://github.com/kgurnoor/leetcode/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/kgurnoor/leetcode/tree/master/1406-stone-game-iii) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/kgurnoor/leetcode/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 ## Recursion
@@ -81,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0486-predict-the-winner](https://github.com/kgurnoor/leetcode/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/kgurnoor/leetcode/tree/master/0877-stone-game) |
+| [1140-stone-game-ii](https://github.com/kgurnoor/leetcode/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/kgurnoor/leetcode/tree/master/1406-stone-game-iii) |
 ## Monotonic Stack
 |  |
@@ -119,4 +123,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/kgurnoor/leetcode/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
+## Minimax
+|  |
+| ------- |
+| [1140-stone-game-ii](https://github.com/kgurnoor/leetcode/tree/master/1140-stone-game-ii) |
+## Prefix Sum
+|  |
+| ------- |
+| [1140-stone-game-ii](https://github.com/kgurnoor/leetcode/tree/master/1140-stone-game-ii) |
+## Zero-Sum Game
+|  |
+| ------- |
+| [1140-stone-game-ii](https://github.com/kgurnoor/leetcode/tree/master/1140-stone-game-ii) |
 <!---LeetCode Topics End-->
