@@ -11,17 +11,20 @@ public:
             adj[v].push_back(u); 
             //as the graph is bidirectional
         }
-        return dfs(source, destination, adj, visited);
-    }
-    bool dfs(int node, int destination, vector<vector<int>> &adj, vector<bool>& visited){
-        if(node == destination){
-            return true;
-        }
-        visited[node] = true;
-        for(int neighbour: adj[node]){
-            if(!visited[neighbour]){//hasnt been explored and isnt the destination so explore its neighbours
-                if(dfs(neighbour, destination, adj, visited)){
-                    return true;
+        //bfs 
+        queue<int> q;
+        q.push(source);
+        visited[source] = true;
+        while(!q.empty()){
+            int node = q.front();
+            q.pop();
+            if(node == destination){
+                return true;
+            }
+            for(int neighbour: adj[node]){
+                if(!visited[neighbour]){
+                    visited[neighbour] = true;
+                    q.push(neighbour);
                 }
             }
         }
