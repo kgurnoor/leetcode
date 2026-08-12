@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0496-next-greater-element-i](https://github.com/kgurnoor/leetcode/tree/master/0496-next-greater-element-i) |
 | [0997-find-the-town-judge](https://github.com/kgurnoor/leetcode/tree/master/0997-find-the-town-judge) |
+| [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/kgurnoor/leetcode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/kgurnoor/leetcode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/kgurnoor/leetcode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3731-find-missing-elements](https://github.com/kgurnoor/leetcode/tree/master/3731-find-missing-elements) |
@@ -70,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1140-stone-game-ii](https://github.com/kgurnoor/leetcode/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/kgurnoor/leetcode/tree/master/1406-stone-game-iii) |
 | [2226-maximum-candies-allocated-to-k-children](https://github.com/kgurnoor/leetcode/tree/master/2226-maximum-candies-allocated-to-k-children) |
+| [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/kgurnoor/leetcode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/kgurnoor/leetcode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3731-find-missing-elements](https://github.com/kgurnoor/leetcode/tree/master/3731-find-missing-elements) |
 ## Dynamic Programming
@@ -162,4 +164,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1971-find-if-path-exists-in-graph](https://github.com/kgurnoor/leetcode/tree/master/1971-find-if-path-exists-in-graph) |
+## Sliding Window
+|  |
+| ------- |
+| [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/kgurnoor/leetcode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 <!---LeetCode Topics End-->
