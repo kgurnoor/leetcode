@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0218-the-skyline-problem](https://github.com/kgurnoor/leetcode/tree/master/0218-the-skyline-problem) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/kgurnoor/leetcode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/kgurnoor/leetcode/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3731-find-missing-elements](https://github.com/kgurnoor/leetcode/tree/master/3731-find-missing-elements) |
@@ -64,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0218-the-skyline-problem](https://github.com/kgurnoor/leetcode/tree/master/0218-the-skyline-problem) |
 | [0486-predict-the-winner](https://github.com/kgurnoor/leetcode/tree/master/0486-predict-the-winner) |
 | [0496-next-greater-element-i](https://github.com/kgurnoor/leetcode/tree/master/0496-next-greater-element-i) |
 | [0877-stone-game](https://github.com/kgurnoor/leetcode/tree/master/0877-stone-game) |
@@ -173,9 +175,27 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Segment Tree
 |  |
 | ------- |
+| [0218-the-skyline-problem](https://github.com/kgurnoor/leetcode/tree/master/0218-the-skyline-problem) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/kgurnoor/leetcode/tree/master/2213-longest-substring-of-one-repeating-character) |
 ## Ordered Set
 |  |
 | ------- |
+| [0218-the-skyline-problem](https://github.com/kgurnoor/leetcode/tree/master/0218-the-skyline-problem) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/kgurnoor/leetcode/tree/master/2213-longest-substring-of-one-repeating-character) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0218-the-skyline-problem](https://github.com/kgurnoor/leetcode/tree/master/0218-the-skyline-problem) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [0218-the-skyline-problem](https://github.com/kgurnoor/leetcode/tree/master/0218-the-skyline-problem) |
+## Sweep Line
+|  |
+| ------- |
+| [0218-the-skyline-problem](https://github.com/kgurnoor/leetcode/tree/master/0218-the-skyline-problem) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0218-the-skyline-problem](https://github.com/kgurnoor/leetcode/tree/master/0218-the-skyline-problem) |
 <!---LeetCode Topics End-->
